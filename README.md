@@ -1,5 +1,5 @@
 # 3D-Printed-BLDC
-# 3D Printed 12N14P BLDC Motor 🚧 (Work in Progress)
+# 3D Printed 12N14P BLDC Motor (Work in Progress)
 
 ![CAD](https://img.shields.io/badge/Design-Fusion%20360-orange.svg)
 ![Hardware](https://img.shields.io/badge/Hardware-3D%20Printed-lightgrey.svg)
@@ -11,7 +11,7 @@ A fully customizable, experimental Brushless DC (BLDC) motor designed to be 3D p
 
 ---
 
-## 📖 Overview
+## Overview
 
 This motor is being designed from the ground up to overcome the classic challenges of 3D-printed motors (e.g., plastic melting, eddy currents, and high-RPM hoop stress). By combining 3D-printed plastic with reinforcement elements (Kevlar/Cyanoacrylate), steel cores (insulated nails) for the stator, and high-quality bearings, the goal is to build a motor capable of delivering real, usable torque.
 
@@ -24,7 +24,7 @@ This motor is being designed from the ground up to overcome the classic challeng
 
 ---
 
-## 🛠️ Bill of Materials (BOM)
+## Bill of Materials (BOM)
 
 | Component | Specifications / Details | Quantity |
 | :--- | :--- | :--- |
@@ -38,18 +38,18 @@ This motor is being designed from the ground up to overcome the classic challeng
 
 ---
 
-## 📸 Build Log & Assembly (Ongoing)
+## Build Log & Assembly (Ongoing)
 
 ### 1. 3D Printing the Components
 The parts are being printed with strict tolerances in mind. The stator features 4 mm walls for the teeth, and the rotor has an internal 14-sided polygonal profile to ensure a perfectly flat mounting surface for the magnets.
 
-![3D Printed Parts](path/to/your-printed-parts-image.jpg)
+![3D Printed Parts](MEDIA/IMG_6397.png)
 *> Add a picture of the freshly printed Stator and Rotor here.*
 
 ### 2. Stator Assembly & Winding
 To increase efficiency and reduce overheating, the center of each plastic tooth is filled with steel (varnish-insulated nails). The winding is being done manually following the dLRK scheme. To support currents up to 20A, 3 strands of 0.5 mm wire are routed in parallel.
 
-![Wound Stator](path/to/your-wound-stator-image.jpg)
+![Wound Stator](MEDIA/IMG_6400.png)
 *> Add a close-up picture of the copper wound around the stator here.*
 
 ### 3. Rotor (Bell) Assembly
@@ -57,21 +57,19 @@ The magnets are secured using epoxy resin, strictly following the **North-South*
 
 To prevent the motor from exploding due to centrifugal force (hoop stress), the exterior of the bell will be wrapped in Kevlar thread and sealed with Cyanoacrylate.
 
-![Rotor Assembly](path/to/your-rotor-magnets-image.jpg)
+![Rotor Assembly](MEDIA/IMG_6402.png)
 *> Add a picture of the inside of the rotor, showing the glued magnets.*
 
-![Kevlar Reinforcement](path/to/your-kevlar-wrap-image.jpg)
-*> Add a picture of the exterior of the rotor and the retaining ring here.*
 
 ### 4. Final Assembly (Pending)
 The 4 mm shaft will be press-fitted into the rotor, passed through the MR84ZZ bearings mounted in the center of the stator, and secured with a C-clip at the bottom.
 
 ![Assembled Motor](path/to/your-final-motor-image.jpg)
-*> Add a picture of the fully assembled motor here once completed.*
+*> Will add a picture of the fully assembled motor here once completed.*
 
 ---
 
-## ⚡ Upcoming Testing & Calibration
+## Upcoming Testing & Calibration
 
 Once the build is complete, the following tests will be performed using a standard drone ESC and an optical tachometer:
 
@@ -81,5 +79,5 @@ Once the build is complete, the following tests will be performed using a standa
 
 ---
 
-## ⚠️ Safety Warning
+## Safety Warning
 This motor is designed to reach extremely high speeds (20,000 RPM). A faulty 3D print or weak magnet adhesion can lead to catastrophic rotor failure and disintegration. **Always wear safety goggles during testing and never stand in the rotational plane of the propeller!**
